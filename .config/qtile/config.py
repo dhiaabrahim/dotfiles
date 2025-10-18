@@ -97,7 +97,7 @@ for vt in range(1, 8):
     )
 
 
-groups = [Group(i) for i in "123456789"]
+groups = [Group(i) for i in "123456"]
 
 for i in groups:
     keys.extend(
@@ -140,7 +140,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="sans",
+    font="Ubuntu Bold",
     fontsize=12,
     padding=3,
 )
